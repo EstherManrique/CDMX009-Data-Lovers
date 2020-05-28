@@ -1,0 +1,261 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+.indexheader {
+  width: 170px;
+  height: 140px;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+
+.introduction {
+  padding-top: 10px;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  opacity: 0.9;
+}
+
+.imgindex {
+  width: 130px;
+  height: 260px;
+  display: inline-block;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 15px;
+  letter-spacing: -0.015em;
+}
+
+.pics {
+  width: 90px;
+}
+
+h2 {
+  font-size: 15px;
+
+}
+
+.fb, .tw{
+
+  margin: 10px 15px;
+}
+
+
+/*HOJA 2 */
+
+.loginHeader {
+  width: 180px;
+  height: 140px;
+  padding-top: 80px;
+  padding-left: 39px;
+  text-align: center;
+}
+
+.container {
+  font-family: 'Roboto';
+  font-style: italic;
+ 
+  box-sizing: border-box;
+  border-radius: 20px;
+  background: rgba(27, 26, 25, 0.09);
+  width: 303px;
+  height: 52px;
+  font-size: medium;
+  padding-left: 25px;
+  color: rgb(50, 50, 50);
+}
+
+.sesion {
+  width: 346px;
+  height: 328px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.bluebutton {
+  width: 346px;
+  height: 55px;
+  background: #2F14CC;
+  border-radius: 50px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+/* /hoja 3/ */
+
+
+.register3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  width: 217px;
+  height: 40px;
+  padding-top: 96px;
+  display: inline-block;
+}
+
+.registro {
+  width: 346px;
+  height: 500px;
+  left: 39px;
+  padding-top: 10px;
+  margin: auto
+}
+
+.footerRegister {
+  width: 98px;
+  height: 75.95px;
+  left: 158px;
+  padding-top: 100px;
+
+
+}
+
+/* hoja 4 */
+
+.informacion {
+  width: 303px;
+  height: 250px;
+  left: 55px;
+  padding-top: 40px;
+  margin: auto;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15px;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: -0.015em;
+  color: #000000;
+  opacity: 0.9;
+}
+
+
+
+
+.titledata {
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 21px;
+  line-height: 25px;
+  /* or 119% */
+
+  text-align: center;
+  letter-spacing: -0.015em;
+}
+
+/* hoja 5 */
+.iconSelect {
+  width: 80px;
+  height: 60px;
+}
+
+.iconGrid {
+  width: 304px;
+  height: 240px;
+  left: 50px;
+  top: 411px;
+  margin: auto;
+}
+
+.footer4 {
+  padding-top: 50px;
+  width: 98px;
+  height: 75px;
+}
+
+/*  padding-top: 411px;
+
+} */
+
+
+
+
+
+
+
+
+.btn {
+  background: #FFFFFF;
+  border: 3px solid #2F14CC;
+  box-sizing: border-box;
+  border-radius: 50px;
+  width: 114px;
+  height: 45px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: -0.015em;
+}
+
+.from,
+.to {
+  width: 87px;
+  height: 38px;
+  background: #EBEBEB;
+  border-radius: 50px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 21px;
+  letter-spacing: -0.015em;
+}
+
+.iconSelected {
+  display: inline-block;
+  width: 80px;
+}
+
+.pag3 {
+  margin: auto;
+}
+
+#graficasD {
+  display: inline-block;
+  margin: 25px auto; 
+}
+
+#tabla {
+  margin: 50px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

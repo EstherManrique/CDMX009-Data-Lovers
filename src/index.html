@@ -1,14 +1,252 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <title>Data Lovers</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Data Lovers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+  <!-- GRAFICA DE PIE 3D -->
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <!-- <script type="text/javascript" src="https://www.google.com/jsapi"></script> -->
+  
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- PRIMERA HOJA -->
+    <section class="inicio" id="pag1">
+      <header>
+      <img src="imgs/LogoP2_1.png" class="indexheader">
+      <h1>Bienvenid@ a DataLovers</h1>
+    </header>
+  
+    <div class="introduction">
+      <p> Somos una empresa dedicada a cambiar<br>la manera de entender, interpretar<br> y visualizar la data.</p>
+      <p>Hacemos que el análisis de datos sea: <br><strong>rápido, facíl, atractivo y útil.</strong></p>
+    </div>
+  
+    <div class="imgindex">
+      <a href="#login"><img src="imgs/idea.svg" id="userimg" class="pics" ></a>
+      <h2>Soy Analista Individual</h2>      
+      <p>La exploración de datos te espera. Convierte los datos en tu mejor amigo.</p>
+    </div>
+   
+    <div class="imgindex">
+      <a href="#login"><img src="imgs/grupo.svg" id="groupimg" class="pics"></a>
+      <h2>Soy Empresa</h2>
+      <p>Toma las mejores decisiones para tu empresa o equipo usando datos confiables.</p>
+    </div>
+   
+    <footer class="redes" id="redes">
+      <br>
+      <a href="#"><img src="imgs/facebook.svg" alt="Logo facebook" class="fb" id="fb"></a>
+      <a href="#"><img src="imgs/twitter.png" alt="Logo twitter" class="tw" id="tw"></a>
+    </footer>
+  
+  </section>
+
+
+<!-- HOJA 2 -->
+
+<section class="pag2" id="login">
+  <img src="imgs/LogoP2_1.png" alt="logotipo" class="loginHeader">
+
+  <div class="sesion">
+    <label for="">
+      <p><input type="text" class="container" id="usersesion" placeholder="Usuario" required></p>
+      <p><input type="password" class="container" id="passwordsession" placeholder="Contraseña" required></p>
+      <a href="#entrada"><button class="bluebutton">Entrar</button></a>
+      <p class="register"><a href="#registro">Registrarme</a></p>
+    </label>
+  </div>
+  <br>
+  <br>
+  <footer></footer>
+  <br>
+  <br>
+
+</section>
+
+<!-- HOJA 3 -->
+<section class="pag3" id="p3">
+  <h1 class="register3">Registrarme</h1>
+
+  <div class="registro">
+    <label for="">
+      <p><input type="text" class="container" placeholder="Nombre Completo" required></p>
+      <p><input type="email" class="container" placeholder="Correo Electrónico" required></p>
+      <p><input type="password" class="container" placeholder="Contraseña" required></p>
+      <p><input type="password" class="container" placeholder="Confirmar Contraseña" required></p>
+      <a href="#entrada"><button class="bluebutton">Listo</button></a>
+    </label>
+
+    <footer>
+      <a href="#inicio"><img src="imgs/LogoP2_1.png" class="footerRegister" alt="Logotipo"></a>
+    </footer>
+  </div>
+</section>
+
+<!-- HOJA 4 -->
+<br>
+<br>
+<section class="hoja_4" id="entrada">
+  <div class="informacion">
+    <h1 class="titledata">Personas Heridas por Medios de Transporte</h1>
+
+    <p>Esta base de datos incluye el <br> registro de <strong>personas heridas</strong> por <br> distintos medios de
+      transporte.</p>
+    <p>Datos del año de <strong>1960</strong> a <strong>2016.</strong></p>
+    </p>
+
+    <p>Selecciona un Medio de <br> transporte:</p>
+  </div>
+
+  <div class="iconGrid" id="icons">
+    <a href="#graficas"><img src="imgs/tractor.svg" id="Total_Injured_Persons_Railroad_Train_Accidents" class="iconSelect" alt="Tren"></a>
+    <a href="#graficas"><img src="imgs/furgoneta.svg" id="Total_Injured_Persons_Bus_Occupants" class="iconSelect" alt="Autobus"></a>
+    <a href="#graficas"><img src="imgs/camion.svg" id="Total_Injured_Persons_Truck_Occupants_Large" class="iconSelect" alt="Camión"></a>
+    <a href="#graficas"><img src="imgs/coche.svg" id="Total_Injured_Persons_Passenger_Car_Occupants" class="iconSelect" alt="Automovil"></a>
+    <a href="#graficas"><img src="imgs/moto.svg" id="Total_Injured_Persons_Motorcyclists" class="iconSelect" alt="Motocicleta"></a>
+    <a href="#graficas"><img src="imgs/aeroplano.svg" id="Total_Injured_Persons_General_Aviation" class="iconSelect" alt="Avión"></a>
+    <a href="#graficas"><img src="imgs/enviar.svg" id="Total_Injured_Persons_Recreational_Boating" class="iconSelect" alt="Barco"></a>
+  </div>
+
+  <footer>
+    <a href="#pag1"><img src="imgs/LogoP2_1.png" class="footer4" alt="Logotipo"></a>
+  </footer>
+</section>
+
+<br>
+<br>
+
+<!-- HOJA 5 -->
+
+<section class="pag5" id="graficas">
+  <header>
+    <p><a href="#entrada">Regresar</a></p>
+    <p class="iconSelected" id="imgSelect"></p>
+  
+    <p id="descMedio">Tipo de Transporte</p>
+  </header>
+
+
+
+
+  <div class="select">
+    <p>Intervalo: <select class="from" id=fromm>
+        <option>1960</option>
+        <option>1965</option>
+        <option>1970</option>
+        <option>1975</option>
+        <option>1980</option>
+        <option>1985</option>
+        <option>1990</option>
+        <option>1991</option>
+        <option>1992</option>
+        <option>1993</option>
+        <option>1994</option>
+        <option>1995</option>
+        <option>1996</option>
+        <option>1997</option>
+        <option>1998</option>
+        <option>1999</option>
+        <option>2000</option>
+        <option>2001</option>
+        <option>2002</option>
+        <option>2003</option>
+        <option>2004</option>
+        <option>2005</option>
+        <option>2006</option>
+        <option>2007</option>
+        <option>2008</option>
+        <option>2009</option>
+        <option>2010</option>
+        <option>2011</option>
+        <option>2012</option>
+        <option>2013</option>
+        <option>2014</option>
+        <option>2015</option>
+        <option>2016</option>
+      </select>
+
+      <select class="to" id="too">
+        <option>1960</option>
+        <option>1965</option>
+        <option>1970</option>
+        <option>1975</option>
+        <option>1980</option>
+        <option>1985</option>
+        <option>1990</option>
+        <option>1991</option>
+        <option>1992</option>
+        <option>1993</option>
+        <option>1994</option>
+        <option>1995</option>
+        <option>1996</option>
+        <option>1997</option>
+        <option>1998</option>
+        <option>1999</option>
+        <option>2000</option>
+        <option>2001</option>
+        <option>2002</option>
+        <option>2003</option>
+        <option>2004</option>
+        <option>2005</option>
+        <option>2006</option>
+        <option>2007</option>
+        <option>2008</option>
+        <option>2009</option>
+        <option>2010</option>
+        <option>2011</option>
+        <option>2012</option>
+        <option>2013</option>
+        <option>2014</option>
+        <option>2015</option>
+        <option>2016</option>
+      </select></p>
+  </div>
+
+  <br>
+
+  <div class="botonesF">
+    <a href="#graficas"><input type="button" value="Graficas" class="btn" id="linear"></a>
+    <a href="#tabla"><input type="button" value="Tabla" class="btn" id="tablita"></a>
+    <a href="#Mapa"><input type="button" value="Mapa" class="btn" id="mapa"></a>
+  </div>
+
+  <div id="graficasD" class="graficasD">
+    <div id="chart_div" style="width: 700px; height: 300px;"></div>
+    <br>
+    <div id="piechart_3d" style="width: 800px; height: 400px;"></div>
+  </div>
+
+  <div id="tabla" class="tabla">
+    <p class="iconSelected" id="imgSelectTabla">Aquí va la img del transporte</p>
+
+    <p id="descMedioTabla" class="titleTable">Tipo de Transporte</p>
+    <div id="table_div" style="width: auto; height: auto;">Aquí va la tabla</div>
+  </div>
+
+    <footer>
+      <a href="#pag1"><img src="imgs/LogoP2_1.png" width="75px" alt="Logotipo"></a>
+    </footer>
+
+ 
+
+</section>
+
+
+
+
+
+<script type="module" src="main.js"></script>
+</body>
+
 </html>
