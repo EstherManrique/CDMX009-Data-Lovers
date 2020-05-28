@@ -19,7 +19,7 @@
 
 - [X] Entender y reconocer por qué es importante el HTML semántico.
 - [X] Identificar y entender tipos de selectores en CSS.
-- [ ] Entender como funciona `flexbox` en CSS.
+- [X] Entender como funciona `flexbox` en CSS.
 - [X] Construir tu aplicación respetando el diseño planeado (maquetación).
 
 ### DOM
@@ -34,13 +34,13 @@
 - [X] Manipular objects (key | value).
 - [X] Entender el uso de condicionales (`if-else` | `switch`).
 - [X] Entender el uso de bucles (`for` | `forEach`).
-- [ ] Entender la diferencia entre expression y statements.
+- [X] Entender la diferencia entre expression y statements.
 - [X] Utilizar funciones (parámetros | argumentos | valor de retorno).
-- [ ] Entender la diferencia entre tipos de datos atómicos y estructurados.
+- [X] Entender la diferencia entre tipos de datos atómicos y estructurados.
 - [X] Utilizar ES Modules (`import` | `export`).
 
 ### Pruebas Unitarias (_testing_)
-- [ ] Testear funciones (funciones puras).
+- [X] Testear funciones (funciones puras).
 
 ### Git y GitHub
 - [X] Ejecutar comandos de git (`add` | `commit` | `pull` | `status` | `push`).
@@ -60,13 +60,9 @@ Historia 2: Yo como aseguradora quiero conocer el medio de transporte que tiene 
 
 #### Prototipo de baja fidelidad
 
-<img src=https://github.com/EstherManrique/CDMX009-Data-Lovers/blob/master/src/imgs/Primer_Prototipo.jpeg
+<img src="src/imgs/Primer_Prototipo.jpeg">
 
 #### Prototipo de alta fidelidad
 
-<img src=https://github.com/EstherManrique/CDMX009-Data-Lovers/blob/master/src/imgs/Prototipo_Final.jpeg
+<img src="src/imgs/Prototipo_Final.jpeg">
 
-
-### Pruebas unitarias
-
-NO LAS HICIMOS.
