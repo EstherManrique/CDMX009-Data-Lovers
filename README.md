@@ -66,3 +66,7 @@ Historia 2: Yo como aseguradora quiero conocer el medio de transporte que tiene 
 
 <img src="src/imgs/Prototipo_Final.jpeg">
 
+#### Imagen Final
+
+<img src="src/imgs/Data-Lovers.png">
+
