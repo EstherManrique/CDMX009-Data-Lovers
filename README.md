@@ -1,25 +1,36 @@
-# Data Lovers
+## PROYECTO
+### ***Data Lovers***
 
-* [Personas heridas por medio de transporte en EEUU](src/data/injuries/injuries.json).
-  Este set nos muestra el número de personas heridas en accidentes de
-  transporte, con data anual desde 1960 y categorizada por tipo de transporte
-  (aire, barco, automóvil, moto, bicicleta, ...).
+***Aplicación Responsive***
 
-### Definición del producto ### Historias de usuario
+Aplicación para el manejo y filtrado de datos,  de personas heridas por medio de transporte en EEUU, con data anual desde 1960 y categorizada por tipo de transporte (aire, barco, automóvil, moto, bicicleta, ...).
 
-Historia 1: Yo como usuario quiero conocer la probabilidad de sufrir un accidente en 'x' medio de transporte para saber si conseguir un seguro de vida.
+La aplicación mostrara como resultado de la solicitud, la data representada en una Gráfica de Pie 3D y una lineal, así como la tabla correspondiente a los datos.
 
-Historia 2: Yo como aseguradora quiero conocer el medio de transporte que tiene la tasa de accidentes más alta para cotizar el precio del seguro del medio de transsporte y el precio de seguro de vida de un usuario.
+## Usuarios
 
-#### Prototipo de baja fidelidad
+- Yo como usuario quiero conocer la probabilidad de sufrir un accidente en 'x' medio de transporte para saber si conseguir un seguro de vida.
 
-<img src="src/imgs/Primer_Prototipo.jpeg">
+- Yo como aseguradora quiero conocer el medio de transporte que tiene la tasa de accidentes más alta para cotizar el precio del seguro del medio de transsporte y el precio de seguro de vida de un usuario.
 
-#### Prototipo de alta fidelidad
+## PROTOTIPO DE BAJA FIDELIDAD
 
-<img src="src/imgs/Prototipo_Final.jpeg">
+<img src="src/imgs/Prototipo_BF_DL.png">
 
-#### Imagen Final
+## PROTOTIPO DE BAJA FIDELIDAD
 
-<img src="src/imgs/Data-Lovers.png">
+<img src="src/imgs/Prototipo_AF_DL.png">
+
+## IMAGEN FINAL DEL PROYECTO:
+
+<img src="src/imgs/DL_Tablet.gif">
+
+## TECNOLOGIA UTILIZADA:
+
+- HTML5
+- CSS3
+- Javascript
+- Google Charts
+
+
 
