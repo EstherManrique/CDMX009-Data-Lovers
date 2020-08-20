@@ -17,7 +17,7 @@ La aplicación mostrara como resultado de la solicitud, la data representada en 
 
 <img src="src/imgs/Prototipo_BF_DL.png">
 
-## PROTOTIPO DE BAJA FIDELIDAD
+## PROTOTIPO DE ALTA FIDELIDAD
 
 <img src="src/imgs/Prototipo_AF_DL.png">
 
